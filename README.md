@@ -18,7 +18,7 @@ the protein sequence.
 ## Model
 We've decided that we want to focus on features and want to start with a strong baseline. We've chosen [catboost](https://catboost.ai). It gives good results out of the box, it is interpretable, feature scaling doesn't affect its performance - all because it uses gradient boosting on decision trees. It also works ok with categorical features. After that we were trying to deal with the data :slightly_smiling_face: and improve our models.
 
-Our baseline solution also uses N-fold cross-validation, for each score 
+Our baseline solution uses N-fold cross-validation, for each fold we train the model and use the trained models as an ensemble. We average their predictions to get the final prediction.
 
 ### Single mutants
 The performance of our current best solution for single mutants test file is shown on the plot:
