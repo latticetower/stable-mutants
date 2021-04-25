@@ -30,6 +30,7 @@ The performance of our current best solution for multiple mutants test file is s
 
 ### Things we wanted to do to run the world, but didn't finish
 
+At the hackathon we've managed to dig into original paper's supplementary and found pdb structures for all non-mutated proteins. Many of them appear to have 0-3 aminoacids from N-terminus missing there. We've computed contact maps and designed baseline with it, however didn't completely finished the code and didn't run it.
 
 ## Misc
 Please also see the our team's [BioLib page](https://biolib.com/house-of-mutants-mt24/house-of-mutants/) for further information
